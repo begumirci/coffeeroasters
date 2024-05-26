@@ -2,38 +2,38 @@
   "collection": [
     {
       "name": "Gran Espresso",
-      "images": "./src/images/kopi1.png",
+      "images": "./images/kopi1.png",
       "description": "Light and flavorful blend with cocoa and black pepper for an intense experience."
     },
     {
       "name": "Planalto",
-      "images": "./src/images/kopi2.png",
+      "images": "./images/kopi2.png",
       "description": "Brazilian dark roast with rich and velvety body, and hints of fruits and nuts."
     },
     {
       "name": "Piccollo",
-      "images": "./src/images/kopi3.png",
+      "images": "./images/kopi3.png",
       "description": "Mild and smooth blend featuring notes of toasted almond and dried cherry."
     },
     {
       "name": "Danche",
-      "images": "./src/images/kopi4.png",
+      "images": "./images/kopi4.png",
       "description": "Ethiopian hand-harvested blend densely packed with vibrant fruit notes."
     }
   ],
   "info": [
     {
-      "images": "./src/images/kahve.png",
+      "images": "./images/kahve.png",
       "name": "Best quality",
       "description": "Discover an endless variety of the world’s best artisan coffee from each of our roasters."
     },
     {
-      "images": "./src/images/gift.png",
+      "images": "./images/gift.png",
       "name": "Exclusive benefits",
       "description": "Special offers and swag when you subscribe, including 30% off your first shipment."
     },
     {
-      "images": "./src/images/truck.png",
+      "images": "./images/truck.png",
       "name": "Free shipping",
       "description": "We cover the cost and coffee is delivered fast. Peak freshness: guaranteed."
     }
@@ -57,7 +57,7 @@
   ],
   "headquerters": [
     {
-      "images": "./src/images/uk.svg",
+      "images": "./images/uk.svg",
       "name": "United Kingdom",
       "span1": "68  Asfordby Rd",
       "span2": "Alcaston",
@@ -65,7 +65,7 @@
       "span4": "+44 1241 918425"
     },
     {
-      "images": "./src/images/canada.svg",
+      "images": "./images/canada.svg",
       "name": "Canada",
       "span1": "1528  Eglinton Avenue",
       "span2": "Toronto",
@@ -73,7 +73,7 @@
       "span4": "+1 416 485 2997"
     },
     {
-      "images": "./src/images/australia.svg",
+      "images": "./images/australia.svg",
       "name": "Australia",
       "span1": "36 Swanston Street",
       "span2": "Kewell",
