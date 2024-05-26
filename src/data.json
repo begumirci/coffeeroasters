@@ -1,0 +1,173 @@
+{
+  "collection": [
+    {
+      "name": "Gran Espresso",
+      "images": "./src/images/kopi1.png",
+      "description": "Light and flavorful blend with cocoa and black pepper for an intense experience."
+    },
+    {
+      "name": "Planalto",
+      "images": "./src/images/kopi2.png",
+      "description": "Brazilian dark roast with rich and velvety body, and hints of fruits and nuts."
+    },
+    {
+      "name": "Piccollo",
+      "images": "./src/images/kopi3.png",
+      "description": "Mild and smooth blend featuring notes of toasted almond and dried cherry."
+    },
+    {
+      "name": "Danche",
+      "images": "./src/images/kopi4.png",
+      "description": "Ethiopian hand-harvested blend densely packed with vibrant fruit notes."
+    }
+  ],
+  "info": [
+    {
+      "images": "./src/images/kahve.png",
+      "name": "Best quality",
+      "description": "Discover an endless variety of the world’s best artisan coffee from each of our roasters."
+    },
+    {
+      "images": "./src/images/gift.png",
+      "name": "Exclusive benefits",
+      "description": "Special offers and swag when you subscribe, including 30% off your first shipment."
+    },
+    {
+      "images": "./src/images/truck.png",
+      "name": "Free shipping",
+      "description": "We cover the cost and coffee is delivered fast. Peak freshness: guaranteed."
+    }
+  ],
+  "howworks": [
+    {
+      "number": "01",
+      "name": "Pick your coffee",
+      "description": "Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out."
+    },
+    {
+      "number": "02",
+      "name": "Choose the frequency",
+      "description": "Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel your subscription with no commitment through our online portal."
+    },
+    {
+      "number": "03",
+      "name": "Receive and enjoy!",
+      "description": "We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees curated to provide a distinct tasting experience."
+    }
+  ],
+  "headquerters": [
+    {
+      "images": "./src/images/uk.svg",
+      "name": "United Kingdom",
+      "span1": "68  Asfordby Rd",
+      "span2": "Alcaston",
+      "span3": "SY6 1YA",
+      "span4": "+44 1241 918425"
+    },
+    {
+      "images": "./src/images/canada.svg",
+      "name": "Canada",
+      "span1": "1528  Eglinton Avenue",
+      "span2": "Toronto",
+      "span3": "Ontario M4P 1A6",
+      "span4": "+1 416 485 2997"
+    },
+    {
+      "images": "./src/images/australia.svg",
+      "name": "Australia",
+      "span1": "36 Swanston Street",
+      "span2": "Kewell",
+      "span3": "Victoria",
+      "span4": "+61 4 9928 3629"
+    }
+  ],
+  "createchoose": [
+    {
+      "coffe": [
+        {
+          "id": 1,
+          "name": "Capsule",
+          "description": "Compatible with Nespresso systems and similar brewers"
+        },
+        {
+          "id": 2,
+          "name": "Filter",
+          "description": "For pour over or drip methods like Aeropress, Chemex, and V60"
+        },
+        {
+          "id": 3,
+          "name": "Espresso",
+          "description": "Dense and finely ground beans for an intense, flavorful experience"
+        }
+      ],
+      "type": [
+        {
+          "id": 1,
+          "name": "Single Origin",
+          "description": "Distinct, high quality coffee from a specific family-owned farm"
+        },
+        {
+          "id": 2,
+          "name": "Decaf",
+          "description": "Just like regular coffee, except the caffeine has been removed"
+        },
+        {
+          "id": 3,
+          "name": "Blended",
+          "description": "Combination of two or three dark roasted beans of organic coffees"
+        }
+      ],
+      "much": [
+        {
+          "id": 1,
+          "name": "250g",
+          "description": "Perfect for the solo drinker. Yields about 12 delicious cups."
+        },
+        {
+          "id": 2,
+          "name": "500g",
+          "description": "Perfect option for a couple. Yields about 40 delectable cups."
+        },
+        {
+          "id": 3,
+          "name": "1000g",
+          "description": "Perfect for offices and events. Yields about 90 delightful cups."
+        }
+      ],
+      "grind": [
+        {
+          "id": 1,
+          "name": "Wholebean",
+          "description": "Best choice if you cherish the full sensory experience"
+        },
+        {
+          "id": 2,
+          "name": "Filter",
+          "description": "For drip or pour-over coffee methods such as V60 or Aeropress"
+        },
+        {
+          "id": 3,
+          "name": "Cafetiére",
+          "description": "Course ground beans specially suited for french press coffee"
+        }
+      ],
+      "often": [
+        {
+          "id": 1,
+          "name": "Every week",
+          "description": "$7.20 per shipment. Includes free first-class shipping."
+        },
+        {
+          "id": 2,
+          "name": "Every 2 weeks",
+          "description": "$9.60 per shipment. Includes free priority shipping."
+        },
+        {
+          "id": 3,
+          "name": "Every month",
+          "description": "$12.00 per shipment. Includes free priority shipping."
+        }
+      ]
+    }
+  ]
+}
