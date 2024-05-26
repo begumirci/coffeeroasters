@@ -1,8 +1,6 @@
 import { useContext } from 'react';
 import logo from '../images/logo2.png';
-import facebook from '../images/Pathfacebook.svg';
-import twitter from '../images/Pathtwitter.svg';
-import insta from '../images/Shapeinsta.svg';
+
 import { Link } from 'react-router-dom';
 import { myContext } from '../App';
 
