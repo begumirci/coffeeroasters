@@ -3,7 +3,7 @@ import { myContext } from '../App';
 
 import Swal from 'sweetalert2';
 export default function Order() {
-  const { selected, setIsOkey, up, isOkey } = useContext(myContext);
+  const { selected, setIsOkey, up, isOkey, grindOpen } = useContext(myContext);
   console.log(isOkey);
 
   function isFormCompleted(obj) {
@@ -38,10 +38,15 @@ export default function Order() {
         <h1 className='normal-font2 '>Order Summary</h1>
 
         <div className='drink-summary'>
-          “I drink my coffee as <span>{selected.coffe}</span>, with a{' '}
-          <span>{selected.type}</span> type of bean.{' '}
-          <span>{selected.much}</span> ground ala <span>{selected.grind}</span>,
-          sent to me <span>{selected.often}</span>
+          “I drink my coffee as <span>{selected.coffe}</span>, with a
+          <span> {selected.type}</span> type of bean.
+          <span> {selected.much} </span>
+          {grindOpen ? (
+            <>
+              ground ala <span>{selected.grind}</span>
+            </>
+          ) : null}
+          , sent to me <span>{selected.often}</span>
           .”
         </div>
       </div>

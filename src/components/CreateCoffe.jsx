@@ -15,21 +15,22 @@ export default function CreateCoffe() {
     setGrindOpen,
   } = useContext(myContext);
 
-  function handleSelect(optionType, optionName) {
-    if (optionType == 'coffe' && optionName == 'Capsule') {
+  useEffect(() => {
+    if (selected.coffe == 'Capsule') {
       setIsOpenDrop({ ...isOpenDrop, grind: false });
-      console.log('yess');
       setGrindOpen(false);
+    } else {
+      setGrindOpen(true);
     }
+  }, [selected]);
+  function handleSelect(optionType, optionName) {
     setSelected({ ...selected, [optionType]: optionName });
   }
-
-  console.log(selected);
 
   function handleSetOpen(dropName) {
     setIsOpenDrop({ ...isOpenDrop, [dropName]: !isOpenDrop[dropName] });
   }
-  console.log(isOpenDrop);
+
   useEffect(() => {
     if (Object.values(selected).every((x) => x !== '...')) {
       setIsOkey(true);
