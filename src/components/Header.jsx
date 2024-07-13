@@ -1,7 +1,7 @@
 import { myContext } from '../App';
-import logo from '../images/logo.svg';
-import menu from '../images/menu.svg';
-import close from '../images/close.svg';
+import logo from '../../public/logo.svg';
+import menu from '../../public/menu.svg';
+import close from '../../public/close.svg';
 import { useContext } from 'react';
 import { Link } from 'react-router-dom';
 

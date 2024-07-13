@@ -5,10 +5,10 @@ import CreatButton from '../components/CreateButton';
 
 import Info from '../components/Info';
 import { Works } from '../components/Works';
-import image from '../images/banner.jpg';
+import image from '../../public/banner.jpg';
 import { myContext } from '../App';
-import tabletimg from '../images/tabletbanner.jpg';
-import mainimg from '../images/banner1.jpg';
+import tabletimg from '../../public/tabletbanner.jpg';
+import mainimg from '../../public/banner1.jpg';
 
 export default function Home() {
   const data = useContext(myContext);

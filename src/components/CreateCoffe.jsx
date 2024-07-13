@@ -1,6 +1,6 @@
 import { myContext } from '../App';
 
-import down from '../images/down.svg';
+import down from '../../public/down.svg';
 import { useContext, useEffect } from 'react';
 
 export default function CreateCoffe() {

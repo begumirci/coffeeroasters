@@ -2,10 +2,10 @@ import Banner from '../components/Banner';
 import CreateCoffe from '../components/CreateCoffe';
 
 import Order from '../components/Order';
-import tabletimg from '../images/Bitmapsubstablet.jpg';
+import tabletimg from '../../public/Bitmapsubstablet.jpg';
 import { SubWork } from '../components/Works';
-import img from '../images/subs.jpg';
-import mainimg from '../images/banner3.png';
+import img from '../../public/subs.jpg';
+import mainimg from '../../public/banner3.png';
 import AllCreate from '../components/AllCreate';
 
 export default function Subscribe() {

@@ -3,9 +3,9 @@ import Commitment from '../components/Commitment';
 
 import Headquerters from '../components/Headquerters';
 import Quality from '../components/Quality';
-import aboutus from '../images/aboutus.jpg';
-import tabletimg from '../images/Bitmapabouttablet.jpg';
-import mainimg from '../images/banner2.jpg';
+import aboutus from '../../public/aboutus.jpg';
+import tabletimg from '../../public/Bitmapabouttablet.jpg';
+import mainimg from '../../public/banner2.jpg';
 
 export default function AboutUs() {
   return (

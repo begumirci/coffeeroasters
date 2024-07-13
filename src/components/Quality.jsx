@@ -1,5 +1,5 @@
-import coffe from '../images/coffe.jpg';
-import qualityMain from '../images/quality-main.png';
+import coffe from '../../public/coffe.jpg';
+import qualityMain from '../../public/quality-main.png';
 
 export default function Quality() {
   return (

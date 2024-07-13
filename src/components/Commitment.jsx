@@ -1,6 +1,6 @@
-import commitImg from '../images/commitment.jpg';
-import commitTablet from '../images/Bitmaptablet-commit.jpg';
-import commitMain from '../images/main-commit.jpg';
+import commitImg from '../../public/commitment.jpg';
+import commitTablet from '../../public/Bitmaptablet-commit.jpg';
+import commitMain from '../../public/main-commit.jpg';
 
 export default function Commitment() {
   return (
